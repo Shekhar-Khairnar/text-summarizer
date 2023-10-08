@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from textsummarizer.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 # from textsummarizer.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 # from textsummarizer.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
@@ -15,3 +16,8 @@ try:
 except Exception as e:
         logger.exception(e)
         raise e
+=======
+from textsummarizer.logging import logger
+
+logger.info('Custom logging')
+>>>>>>> 631e41c49e951fe581201673a0b05d4c5eb8ba0b
