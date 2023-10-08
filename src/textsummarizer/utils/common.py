@@ -1,11 +1,7 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
-<<<<<<< HEAD
 from textsummarizer.logging import logger
-=======
-from textSummarizer.logging import logger
->>>>>>> 631e41c49e951fe581201673a0b05d4c5eb8ba0b
 from ensure import ensure_annotations
 from box import ConfigBox
 from pathlib import Path
